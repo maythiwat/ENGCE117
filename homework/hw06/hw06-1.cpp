@@ -1,23 +1,18 @@
 #include <stdio.h>
 
-int main()
-{
-  int c;
-  scanf("%d", &c);
+int main() {
+    int c ;
+    scanf( "%d", &c ) ;
 
-  int isEven = c % 2 == 0;
+    int isEven = c % 2 == 0 ;
 
-  for (int i = 0; i < c; i++)
-  {
-    if (isEven)
-    {
-      printf("(%d) Hello World\n", i + 1);
-    }
-    else
-    {
-      printf("[%d] Hello World\n", i + 1);
-    }
-  }
+    for( int i = 0 ; i < c ; i++ ) {
+        if( isEven ) {
+            printf( "(%d) Hello World\n", i + 1 ) ;
+        }else{
+            printf( "[%d] Hello World\n", i + 1 ) ;
+        }
+    }//end for
 
-  return 0;
-}
+    return 0 ;
+}//end function
