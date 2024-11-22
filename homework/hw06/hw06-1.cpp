@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 int main() {
-    int c ;
-    scanf( "%d", &c ) ;
+    int count ;
+    scanf( "%d", &count ) ;
 
-    int isEven = c % 2 == 0 ;
+    int isEven = count % 2 == 0 ;
 
-    for( int i = 0 ; i < c ; i++ ) {
+    for( int i = 1 ; i <= count ; i++ ) {
         if( isEven ) {
-            printf( "(%d) Hello World\n", i + 1 ) ;
+            printf( "(%d) Hello World\n", i ) ;
         }else{
-            printf( "[%d] Hello World\n", i + 1 ) ;
-        }
+            printf( "[%d] Hello World\n", i ) ;
+        }//end if
     }//end for
 
     return 0 ;

@@ -1,19 +1,18 @@
 #include <stdio.h>
 
 int main() {
-    int c;
-    scanf( "%d", &c );
+    int count ;
+    scanf( "%d", &count ) ;
 
-    int isEven = c % 2 == 0 ;
+    int isEven = count % 2 == 0 ;
 
-    int i = 0 ;
-
-    while( i < c ) {
+    int i = 1 ;
+    while( i <= count ) {
         if( isEven ) {
-            printf( "(%d) Hello World\n", i + 1 ) ;
+            printf( "(%d) Hello World\n", i ) ;
         } else {
-            printf( "[%d] Hello World\n", i + 1 ) ;
-        }
+            printf( "[%d] Hello World\n", i ) ;
+        }//end if
 
         i++ ;
     }//end while
