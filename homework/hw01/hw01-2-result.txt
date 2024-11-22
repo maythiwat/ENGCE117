@@ -1,0 +1,3 @@
+Hello, I'm Javis (RMUTL-Version).
+This is my first time to coding with C language.
+Today is my birthday.

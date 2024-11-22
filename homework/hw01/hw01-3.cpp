@@ -1,16 +1,17 @@
 #include <stdio.h>
 
 int main() {
-    char fName[ 100 ] ;
-    char lName[ 100 ] ;
+    char firstName[ 100 ], lastName[ 100 ] ;
 
+    // Input first name
     printf( "First Name: " ) ;
-    scanf( "%s", &fName);
+    scanf( "%s", &firstName );
 
+    // Input last name
     printf( "Last Name: " ) ;
-    scanf( "%s", &lName ) ;
+    scanf( "%s", &lastName ) ;
 
-    printf( "%s %s TC, RMUTL, Chiang Mai, Thailand", fName, lName ) ;
+    printf( "%s %s TC, RMUTL, Chiang Mai, Thailand", firstName, lastName ) ;
 
     return 0 ;
 }//end function
