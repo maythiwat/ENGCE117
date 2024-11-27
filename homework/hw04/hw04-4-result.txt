@@ -1,0 +1,5 @@
+Enter H & W : 6 2
+Triagle Area : 6.0
+
+Enter H & W : 3 5
+Triagle Area : 7.5
