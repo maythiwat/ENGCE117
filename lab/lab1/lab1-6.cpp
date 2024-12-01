@@ -7,7 +7,7 @@ int main() {
     data = GetMatrix( &m, &n ) ;
 
     // null = incorrect number
-    if ( data == NULL ) {
+    if( data == NULL ) {
         printf( "Error: Invalid matrix input" ) ;
         return 0 ;
     }//end if
@@ -15,7 +15,7 @@ int main() {
     // print out matrix
     printf( "Enter number of rows and columns: %d %d \n", m, n ) ;
 
-    if ( m && n ) {
+    if( m && n ) {
         printf( "Enter matrix elements: \n" ) ;
         for( int i = 0 ; i < m ; i++ ) {
             for( int j = 0 ; j < n ; j++ ) {
@@ -38,20 +38,20 @@ int* GetMatrix( int *row, int *col ) {
     int *tmp ;
     tmp = new int[ size ] ;
 
-    for ( int i = 0 ; i < ( *row ) ; i++ ) {
-        if (tmp == NULL) {
+    for( int i = 0 ; i < ( *row ) ; i++ ) {
+        if( tmp == NULL ) {
             break ;
         }//end if
 
-        for ( int j = 0 ; j < ( *col ) ; j++ ) {
+        for( int j = 0 ; j < ( *col ) ; j++ ) {
             int idx = i * ( *col ) + j ;
 
             scanf( "%d", &tmp[ idx ] ) ;
 
             // handle line break
-            if ( getchar() == '\n' ) {
+            if( getchar() == '\n' ) {
                 // if is last row AND current index is not end
-                if ( i == ( *row - 1 ) && idx < ( size - 1 ) ) {
+                if( i == ( *row - 1 ) && idx < ( size - 1 ) ) {
                     // dirty way to told is it error or not
                     tmp = NULL ;
                 }//end if

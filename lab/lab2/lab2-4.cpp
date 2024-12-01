@@ -35,7 +35,7 @@ int should_split( char cur, char splitters[] ) {
 void explode( char str1[], char splitters[], char str2[][ 10 ], int *count ) {
     int len = strlen( str1 ) ;
 
-    if ( len == 0 ) {
+    if( len == 0 ) {
         *count = 0 ;
         return ;
     }//end if
@@ -44,9 +44,9 @@ void explode( char str1[], char splitters[], char str2[][ 10 ], int *count ) {
     int chr = 0 ;
 
     for( int i = 0 ; i < len ; i++ ) {
-        if ( should_split( str1[ i ], splitters ) ) {
+        if( should_split( str1[ i ], splitters ) ) {
             // is last char OR duplicated splitter
-            if ( i == ( len - 1 ) || should_split( str1[ i + 1 ], splitters ) || chr == 0 ) {
+            if( i == ( len - 1 ) || should_split( str1[ i + 1 ], splitters ) || chr == 0 ) {
                 continue ;
             }//end if
 

@@ -21,7 +21,7 @@ int main() {
 void explode( char str1[], char splitter, char str2[][10], int *count ) {
     int len = strlen( str1 ) ;
 
-    if ( len == 0 ) {
+    if( len == 0 ) {
         *count = 0 ;
         return ;
     }//end if
@@ -30,9 +30,9 @@ void explode( char str1[], char splitter, char str2[][10], int *count ) {
     int chr = 0 ;
 
     for( int i = 0 ; i < len ; i++ ) {
-        if ( str1[ i ] == splitter ) {
+        if( str1[ i ] == splitter ) {
             // is last char OR duplicated splitter
-            if ( i == ( len - 1 ) || str1[ i + 1 ] == splitter || chr == 0 ) {
+            if( i == ( len - 1 ) || str1[ i + 1 ] == splitter || chr == 0 ) {
                 continue ;
             }//end if
 
