@@ -18,20 +18,6 @@ int main() {
     return 0 ;
 }//end function
 
-int should_split( char cur, char splitters[] ) {
-    int len = strlen( splitters ) ;
-    int should = 0 ;
-
-    for( int i = 0 ; i < len ; i++ ) {
-        if( cur == splitters[ i ] ) {
-            should = 1 ;
-            break ;
-        }//end if
-    }// end for
-
-    return should ;
-}//end function
-
 void explode( char str1[], char splitters[], char str2[][ 10 ], int *count ) {
     int len = strlen( str1 ) ;
 
@@ -44,9 +30,10 @@ void explode( char str1[], char splitters[], char str2[][ 10 ], int *count ) {
     int chr = 0 ;
 
     for( int i = 0 ; i < len ; i++ ) {
-        if( should_split( str1[ i ], splitters ) ) {
-            // is last char OR duplicated splitter
-            if( i == ( len - 1 ) || should_split( str1[ i + 1 ], splitters ) || chr == 0 ) {
+        // current char in splitters?
+        if( strchr( splitters, str1[ i ] ) != NULL ) {
+            // is last char OR next char is duplicated splitter OR previous is empty idk
+            if( i == ( len - 1 ) || strchr( splitters, str1[ i + 1 ] ) != NULL || chr == 0 ) {
                 continue ;
             }//end if
 
