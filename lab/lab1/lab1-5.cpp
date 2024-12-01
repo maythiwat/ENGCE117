@@ -18,16 +18,25 @@ int main() {
         return 0 ;
     }
 
-    // print out matrix
-    printf( "Matrix (%dx%d): \n", m, n ) ;
-    for( int i = 0 ; i < m ; i++ ) {
-        for( int j = 0 ; j < n ; j++ ) {
-            printf( "%d ", data[ i * n + j ] ) ;
-        }//end for
+    // print out by condition
+    if ( m > 1 && n > 1 ) {
+        printf( "Matrix (%dx%d): \n", m, n ) ;
+    }else{
+        printf( "Matrix: \n" ) ;
+    }//end if
 
-        // line break on new row
-        printf("\n") ;
-    }//end for
+    if ( m && n ) {
+        for( int i = 0 ; i < m ; i++ ) {
+            for( int j = 0 ; j < n ; j++ ) {
+                printf( "%d ", data[ i * n + j ] ) ;
+            }//end for
+
+            // line break on new row
+            printf("\n") ;
+        }//end for
+    } else {
+        printf( "(empty)" ) ;
+    }//end if
 
     // clear mem
     delete[] data ;
@@ -42,9 +51,9 @@ void GetMatrix( int *value[], int *row, int *col ) {
     scanf( "%d", col ) ;
 
     int size = ( *row ) * ( *col ) ;
+    *value = new int[ size ] ;
 
     if (size > 0) {
-        *value = new int[ size ] ;
         printf( "Enter the matrix elements: " ) ;
 
         for( int i = 0 ; i < size ; i++ ) {
