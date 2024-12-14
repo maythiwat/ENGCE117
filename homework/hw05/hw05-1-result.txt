@@ -1,0 +1,5 @@
+L M Y K
+Result: K Y M L
+
+A B C D
+Result: D C B A

@@ -1,0 +1,11 @@
+Input A Point : 2 2
+Input B Point : 4 4
+Mid Point of A and B is ( 3.0, 3.0 )
+
+Input A Point : -3 9
+Input B Point : 4 -19
+Mid Point of A and B is ( 0.5, -5.0 )
+
+Input A Point : 6 -8
+Input B Point : 3 3
+Mid Point of A and B is ( 4.5, -2.5 )

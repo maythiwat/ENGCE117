@@ -1,0 +1,5 @@
+Input : 15
+15 is an odd integer
+
+Input : -22
+-22 is an even integer

@@ -1,0 +1,11 @@
+Input 1 : 6
+Input 2 : 29
+Number1 lower than Number2
+
+Input 1 : 96
+Input 2 : 63
+Number1 greater than Number2
+
+Input 1 : 50
+Input 2 : 50
+Number1 equal Number2
