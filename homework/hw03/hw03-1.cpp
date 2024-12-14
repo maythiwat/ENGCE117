@@ -12,11 +12,11 @@ int main() {
             printf( "Here " ) ;
             if( i == 8 ) {
                 printf( "This is 8. " ) ;
-            }
-        }
+            }//end if
+        }//end if
 
         printf( "ok" ) ;
-    }
+    }//end for
 
     return 0 ;
 }//end function
