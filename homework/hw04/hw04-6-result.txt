@@ -1,0 +1,13 @@
+Enter Employee ID(Max. 10 chars): 0342
+Input the working hrs: 8
+Salary amount/hr: 15000
+Expected Output:
+Employees ID = 0342
+Salary = U$ 120,000.00
+
+Enter Employee ID(Max. 10 chars): 0000500349
+Input the working hrs: 11
+Salary amount/hr: 34000
+Expected Output:
+Employees ID = 0000500349
+Salary = U$ 374,000.00

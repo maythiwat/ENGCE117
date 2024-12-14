@@ -6,7 +6,7 @@ int main() {
     int hours, amount ;
 
     // input
-    printf( "Enter Employee ID: " ) ;
+    printf( "Enter Employee ID(Max. 10 chars): " ) ;
     scanf( "%s", employeeId ) ;
     printf( "Input the working hrs: " ) ;
     scanf( "%d", &hours ) ;

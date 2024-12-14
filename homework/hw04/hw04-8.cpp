@@ -3,6 +3,7 @@
 int main() {
     int n, r ;
 
+    printf( "User input : " ) ;
     scanf( "%x", &n ) ;
 
     int b = 0 ;

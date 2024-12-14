@@ -1,0 +1,5 @@
+User input : FB
+11111011
+
+User input : 19
+11001

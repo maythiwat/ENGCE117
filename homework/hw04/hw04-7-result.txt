@@ -1,0 +1,5 @@
+User input : 22
+22 degree Celsius = 71.6 degree Fahrenheit
+
+User input : 36
+36 degree Celsius = 96.8 degree Fahrenheit
