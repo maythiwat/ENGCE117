@@ -1,4 +1,3 @@
-// WIP
 #include <stdio.h>
 
 int main() {
@@ -13,13 +12,16 @@ int main() {
     } else {
         while( i <= 5 ) {
             printf( " not-okey-%d ", ++i ) ;
-            for( i = 3 ; i < 10 ; i += 1 ) {
-                if( i % 2 == ( !1 ? 1 : 2 ) ) {
-                    printf( "see see" ) ;
-                    printf( "haha" ) ;
-                }
-            }
-        }
-    }
+        }//end while
+    }//end if
+
+    for( i = 3 ; i < 10 ; i += 1 ) {
+        if( i % 2 == ( !_1 ? 1 : 2 ) ) {
+            printf( "see see" ) ;
+        } else {
+            printf( "haha" ) ;
+        }//end if
+    }//end for
+
     return 0 ;
 }//end function
