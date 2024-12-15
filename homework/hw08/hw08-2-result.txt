@@ -1,0 +1,11 @@
+enter score : 80
+A !
+
+enter score : 55
+D+ !
+
+enter score : 64
+C !
+
+enter score : 44
+F !
