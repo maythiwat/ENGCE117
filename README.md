@@ -14,7 +14,7 @@ Note: As suggested by the instructor, This repo uses WordPress PHP Coding Standa
 | ⏳ hw6 (5) | 0/5 | ✅ 5/5 | ✅ 5/5 |
 | ⏳ hw7 (4) | 0/4 | ✅ 4/4 | ✅ 4/4 |
 | ⏳ hw8 (4) | 0/4 | ✅ 4/4 | ✅ 4/4 |
-| ⏳ hw9 (12) | 0/12 | ⏳ 2/12 | 0/12 |
+| ⏳ hw9 (12) | 0/12 | ⏳ 9/12 | ⏳ 9/12 |
 | hw10 (2) | 0/2 | 0/2 | 0/2 |
 | hw11 (7) | 0/7 | 0/7 | 0/7 |
 | hw12 (6) | 0/6 | 0/6 | 0/6 |
@@ -22,7 +22,7 @@ Note: As suggested by the instructor, This repo uses WordPress PHP Coding Standa
 | ⏳ hw14 (1) | 0/1 | ✅ 1/1 | ✅ 1/1 |
 | hw15 (10) | 0/10 | 0/10 | 0/10 |
 | hw16 (2) | 0/2 | 0/2 | 0/2 |
-| **Done: 1/16** | **4/82** | **40/82** | **38/82** |
+| **Done: 1/16** | **4/82** | **47/82** | **47/82** |
 
 ---
 

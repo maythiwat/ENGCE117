@@ -2,13 +2,13 @@
 
 int main() {
     int n, cur = 0 ;
-    int arr[30] ;
+    int arr[ 30 ] ;
 
-    while (n != -1) {
-        printf( "Enter value n : " ) ;
+    while ( n != -1 ) {
+        printf( "Input : " ) ;
         scanf( "%d", &n ) ;
         if( n != -1 ) {
-            arr[cur] = n ;
+            arr[ cur ] = n ;
             cur++ ;
         }//end if
     }//end while
@@ -16,34 +16,34 @@ int main() {
     int tmp ;
     for ( int i = 0 ; i < cur ; i++ ) {
         for ( int j = 0 ; j < cur ; j++ ) {
-            if (arr[i] < arr[j]) {
-                tmp = arr[i];
-                arr[i] = arr[j];
-                arr[j] = tmp;
-            }
-        }
+            if ( arr[ i ] < arr[ j ] ) {
+                tmp = arr[ i ] ;
+                arr[ i ] = arr[j] ;
+                arr[ j ] = tmp ;
+            }//end if
+        }//end for
     }//end for
 
-    printf("0-99 :");
+    printf( "0-99 :" ) ;
     for ( int i = 0 ; i < cur ; i++ ) {
-        printf(" %d", arr[i]);
-    }
-    printf("\n");
+        printf( " %d", arr[ i ] ) ;
+    }//end for
+    printf( "\n" ) ;
 
     for ( int i = 0 ; i < cur ; i++ ) {
         for ( int j = 0 ; j < cur ; j++ ) {
-            if (arr[i] > arr[j]) {
-                tmp = arr[i];
-                arr[i] = arr[j];
-                arr[j] = tmp;
-            }
-        }
+            if ( arr[ i ] > arr[ j ] ) {
+                tmp = arr[ i ] ;
+                arr[ i ] = arr[ j ] ;
+                arr[ j ] = tmp ;
+            }//end if
+        }//end for
     }//end for
 
     printf("99-0 :");
     for ( int i = 0 ; i < cur ; i++ ) {
         printf(" %d", arr[i]);
-    }
+    }//end for
     printf("\n");
 
     return 0 ;

@@ -1,0 +1,16 @@
+Input N : 5
+Input : 1
+Input : 1
+Input : 2
+Input : 3
+Input : 3
+Unique value : 2
+
+Input N : 6
+Input : 9
+Input : 9
+Input : 5
+Input : 6
+Input : 2
+Input : 1
+Unique value : 1 2 5 6 

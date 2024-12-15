@@ -1,0 +1,10 @@
+Input : 1
+Input : 5
+Input : 1
+Input : 4
+Input : 6
+Input : 9
+Input : 13
+Input : -1
+0-99 : 1 1 4 5 6 9 13
+99-0 : 13 9 6 5 4 1 1
