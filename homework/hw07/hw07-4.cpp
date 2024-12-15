@@ -5,8 +5,8 @@ int main() {
     printf( "Enter number : " ) ;
     scanf( "%d", &num ) ;
 
-    // decrement from start until 2
-    for( int i = num ; i > 1 ; i-- ) {
+    int i = num ;
+    do {
         // check is prime
         bool isPrime = true ;
         for ( int j = 2 ; j * j <= i ; j++ ) {
@@ -19,7 +19,10 @@ int main() {
         if( isPrime ) {
             printf( "%d ", i ) ;
         }//end if
-    }//end for
+
+        // decrement from start until 2
+        i-- ;
+    } while( i > 1 ) ;
 
     return 0 ;
 }//end funtion
