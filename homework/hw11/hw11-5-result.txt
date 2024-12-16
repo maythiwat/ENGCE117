@@ -1,0 +1,2 @@
+Max Height = 191
+Max Age = 19
