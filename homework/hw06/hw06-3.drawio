@@ -74,7 +74,7 @@
                 </mxCell>
                 <mxCell id="17" value="ใช่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="16" vertex="1" connectable="0">
                     <mxGeometry x="-0.2764" y="1" relative="1" as="geometry">
-                        <mxPoint x="-21" as="offset"/>
+                        <mxPoint x="-21" y="4" as="offset"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="20" target="26" edge="1">

@@ -1,24 +1,24 @@
 #include <stdio.h>
 
 int main() {
-    int a, b ;
+    int start, end ;
 
     printf( "Start : " ) ;
-    scanf( "%d", &a ) ;
+    scanf( "%d", &start ) ;
 
     printf( "End : " ) ;
-    scanf( "%d", &b ) ;
+    scanf( "%d", &end ) ;
 
-    while( a <= b ) {
-        int i = 1 ;
-
-        while( i <= 9 ) {
-            printf( "%d x %d = %d\n", a, i, a * i ) ;
-            i++ ;
+    int i = start ;
+    while( i <= end ) {
+        int j = 1 ;
+        while( j <= 9 ) {
+            printf( "%d x %d = %d\n", i, j, i * j ) ;
+            j++ ;
         }//end while
 
         printf( "\n" ) ;
-        a++ ;
+        i++ ;
     }//end while
 
     return 0 ;
