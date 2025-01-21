@@ -35,11 +35,11 @@ int main() {
     InsertTask( now, "Research", "2024-11-05", "2024-11-10", "Not Started" ) ;
     ShowAllTasks( start ) ;
 
-    SwapTasks( now, now->next ) ;  // Swap Write code and Research tasks
+    SwapTasks( now, now->back ) ;  // Swap Write code and Research tasks
     ShowAllTasks( start ) ;
-    
-    // DelTask( now ) ;  // Delete "Research" task
-    // ShowAllTasks( start ) ;
+
+    DelTask( now->next ) ;  // Delete "Research" task
+    ShowAllTasks( start ) ;
 
     return 0 ;
 }//end function
@@ -100,6 +100,10 @@ void DelTask( struct TaskNode *now ) {
 }//end function
 
 void SwapTasks( struct TaskNode *task1, struct TaskNode *task2 ) {
-    // TODO: complete this shit
-    printf("%s <-> %s\n", task1->taskName, task2->taskName);
+    task2 = task1->back->back->next ;
+    task2->next = NULL ;
+    task1->back->back->next = task1 ;
+    task1->next = task2 ;
+    task1->back = task1->back->back ;
+    task2->back = task1->back->next ;
 }//end function
