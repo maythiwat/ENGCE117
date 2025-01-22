@@ -1,0 +1,9 @@
+[submodule "lab/lab6"]
+	path = lab/lab6
+	url = https://github.com/ENGCE117/lab6-maythiwat
+[submodule "lab/lab7"]
+	path = lab/lab7
+	url = https://github.com/ENGCE117/lab7-maythiwat
+[submodule "lab/lab8"]
+	path = lab/lab8
+	url = https://github.com/ENGCE117/lab8-maythiwat
