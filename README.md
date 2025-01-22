@@ -1,7 +1,10 @@
-# ENGCE117
+# [ENGCE117](https://github.com/ENGCE117)
 A part of my study in ENGCE117 Computer Programming for blah blah blah ...
 
 Note: As suggested by the instructor, This repo uses WordPress PHP Coding Standards (called "Codex" here), It may not be a C/C++ enthusiast's ideal, but I can't help.
+
+## Lab
+Starting from Lab 6, Source code is no longer available directly in this repository. Please see: https://github.com/ENGCE117
 
 ## Homework Progress
 | Homework | Source Code | Result File |
