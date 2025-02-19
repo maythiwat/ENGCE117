@@ -1,0 +1,21 @@
+Array1 Value : 2 5
+Array1 element : 2 5 3 8 3
+2 5 3 1 1
+Array2 Value : 5 2
+Array2 element : 2 3
+4 4
+1 2
+1 1
+2 3
+Array1
+2 5 3 8 3
+2 5 3 1 1
+Array2
+2 3
+4 4
+1 2
+1 1
+2 3
+Array1 x Array2
+41 49
+30 36

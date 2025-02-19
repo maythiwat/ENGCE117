@@ -1,0 +1,12 @@
+Array element : 2 3
+Input : 9 8 7
+6 5 5
+
+
+Array
+9 8 7
+6 5 5
+Array Transpose
+9 6
+8 5
+7 5
