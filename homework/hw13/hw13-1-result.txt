@@ -1,0 +1,13 @@
+Name: Yorn
+Age: 31
+Input B
+Name: Thane
+Age: 20
+
+** RESULT **
+Name: Yorn (31)
+Name: Thane (20)
+
+** SWAP AGE **
+Name: Yorn (20)
+Name: Thane (31)
