@@ -10,7 +10,7 @@ Starting from Lab 6, Source code is no longer available directly in this reposit
 | Homework | Source Code | Result File |
 | -------- | ----------- | ----------- |
 | ✅ hw01 (3) | ✅ 3/3 | ✅ 3/3 |
-| hw02 (2) | 0/2 | 0/2 |
+| ✅ hw02 (2) | ✅ 2/2 | ✅ 2/2 |
 | ✅ hw03 (3) | ✅ 3/3 | ✅ 3/3 |
 | ✅ hw04 (8) | ✅ 8/8 | ✅ 8/8 |
 | ✅ hw05 (10) | ✅ 10/10 | ✅ 10/10 |
@@ -25,7 +25,7 @@ Starting from Lab 6, Source code is no longer available directly in this reposit
 | ✅ hw14 (1) | ✅ 1/1 | ✅ 1/1 |
 | ⏳ hw15 (10) | ⏳ 2/10 | ⏳ 2/10 |
 | ✅ hw16 (2) | 2/2 | 2/2 |
-| **Done: 13/16** | **69/82** | **69/82** |
+| **Done: 14/16** | **71/82** | **71/82** |
 
 **Update (09/01/2025)** Flowcharts are no longer required
 

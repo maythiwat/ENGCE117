@@ -1,0 +1,10 @@
+Post a job 
+There are customers? (y/n) : y
+Talk about work 
+Customers are interested in hiring? (y/n) : y
+Employment contract 
+Pay a deposit 
+Work and report progress 
+Finished work? (y/n) : y
+Pay the remaining amount 
+Receive money $$$ 

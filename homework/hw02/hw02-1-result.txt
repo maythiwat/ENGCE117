@@ -1,0 +1,13 @@
+Your have instant noodles? (y/n) : y
+Add water 
+Boil water
+Turn on the gas
+Wait for the water to boil
+Out of gas? (y/n) : n
+Wait for the water to boil 
+Boiling water? (y/n) : y
+Scoop the noodles out of the pot. 
+Put the noodles in the bowl
+Put the seasonings in a bowl
+Turn off the gas
+Scoop the noodles into a bowl
