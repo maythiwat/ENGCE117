@@ -1,0 +1,23 @@
+Employee 1 Name : Atom
+EXP : 2500
+Employee 2 Name : Aom
+EXP : 3230
+Employee 3 Name : Jom
+EXP : 5505
+Employee 4 Name : On
+EXP : 950
+Employee 5 Name : Oom
+EXP : 3500
+Employee 6 Name : Ky
+EXP : 2600
+Employee 7 Name : -1
+
+**** Salary Result ****
+x1.0 count 1
+x1.2 count 0
+x1.4 count 2
+x1.6 count 2
+x1.8 count 0
+x2.0 count 1
+The Employee get x2.0 is Jom
+The Employee get x1.0 is On
