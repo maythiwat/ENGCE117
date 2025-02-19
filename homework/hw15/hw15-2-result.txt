@@ -1,0 +1,11 @@
+Input vale from user to B : 12
+Output:
+Read File to A is 2
+Input value from user is 12
+Answer = 14
+
+Input vale from user to B : 20
+Output:
+Read File to A is 2
+Input value from user is 20
+Answer = 22

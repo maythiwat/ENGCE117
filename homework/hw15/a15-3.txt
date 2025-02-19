@@ -1,0 +1,3 @@
+Somchai	19	3.78	Male
+Somjing	18	3.54	Female
+Somjung	20	2.44	Male

@@ -1,0 +1,9 @@
+Name    Age     Salary      Job
+Pong    32      45000       Programmer
+Som     25      23000       Support
+Aoy     24      33250       Support
+Ying    26      34550       Programmer
+Yot     28      50000       Founder
+Pot     31      24500       HR
+Vip     25      25450       Programmer
+
