@@ -24,8 +24,8 @@ Starting from Lab 6, Source code is no longer available directly in this reposit
 | hw13 (3) | 0/3 | 0/3 |
 | ✅ hw14 (1) | ✅ 1/1 | ✅ 1/1 |
 | ⏳ hw15 (10) | ⏳ 2/10 | ⏳ 2/10 |
-| hw16 (2) | 0/2 | 0/2 |
-| **Done: 11/16** | **61/82** | **61/82** |
+| ✅ hw16 (2) | 2/2 | 2/2 |
+| **Done: 12/16** | **63/82** | **63/82** |
 
 **Update (09/01/2025)** Flowcharts are no longer required
 
