@@ -13,3 +13,6 @@
 [submodule "lab/lab10"]
 	path = lab/lab10
 	url = https://github.com/ENGCE117/lab10-maythiwat
+[submodule "lab/lab11"]
+	path = lab/lab11
+	url = https://github.com/ENGCE117/lab11-maythiwat
