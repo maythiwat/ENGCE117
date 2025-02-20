@@ -16,3 +16,6 @@
 [submodule "lab/lab11"]
 	path = lab/lab11
 	url = https://github.com/ENGCE117/lab11-maythiwat
+[submodule "lab/lab81"]
+	path = lab/lab81
+	url = https://github.com/ENGCE117/lab81-maythiwat
