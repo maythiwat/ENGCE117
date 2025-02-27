@@ -22,3 +22,12 @@
 [submodule "lab/lab82"]
 	path = lab/lab82
 	url = https://github.com/ENGCE117/lab82-maythiwat
+[submodule "lab/lab12"]
+	path = lab/lab12
+	url = https://github.com/ENGCE117/lab12-maythiwat
+[submodule "lab/lab13"]
+	path = lab/lab13
+	url = https://github.com/ENGCE117/lab13-maythiwat
+[submodule "lab/lab14"]
+	path = lab/lab14
+	url = https://github.com/ENGCE117/lab14-maythiwat
